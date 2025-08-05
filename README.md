@@ -14,6 +14,7 @@
 
 ## News
 
+- **` Aug. 5th, 2025`:** We update the [Arxiv paper](https://arxiv.org/abs/2506.23982) with more experimental results, and supply more demos in the [Project Homepage](https://styledrive.github.io/).
 - **` Jul. 1st, 2025`:** We release the initial version of code and weight (except for WoTE-Style model), along with documentation and training/evaluation scripts.
 - **` Jun. 30th, 2025`:** We released our paper on [Arxiv](https://arxiv.org/abs/2506.23982). Code/Models are coming soon. Please stay tuned! ☕️
 
