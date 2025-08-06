@@ -193,15 +193,5 @@ class TransfuserAgent(AbstractAgent):
         return {'optimizer': optimizer, 'lr_scheduler': scheduler}
 
     def get_training_callbacks(self) -> List[pl.Callback]:
-        checkpoint_callback = ModelCheckpoint(
-            monitor="val/loss_epoch",
-            mode="min",
-            save_top_k=3,
-            save_last=True,
-            filename="epoch={epoch}-val_loss={val/loss_epoch:.4f}"
-        )
         """Inherited, see superclass."""
-        return [
-            TransfuserCallback(self._config),
-            checkpoint_callback
-        ]
+        return [TransfuserCallback(self._config)]
