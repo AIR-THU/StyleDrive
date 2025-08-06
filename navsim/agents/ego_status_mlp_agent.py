@@ -151,15 +151,3 @@ class EgoStatusMLPAgent(AbstractAgent):
     def get_optimizers(self) -> Union[Optimizer, Dict[str, Union[Optimizer, LRScheduler]]]:
         """Inherited, see superclass."""
         return torch.optim.Adam(self._mlp.parameters(), lr=self._lr)
-
-    def get_training_callbacks(self) -> List[pl.Callback]:
-        checkpoint_callback = ModelCheckpoint(
-            monitor="val/loss_epoch",
-            mode="min",
-            save_top_k=3,
-            save_last=True,
-            filename="epoch={epoch}-val_loss={val/loss_epoch:.4f}"
-        )
-        return [
-            checkpoint_callback
-        ]
