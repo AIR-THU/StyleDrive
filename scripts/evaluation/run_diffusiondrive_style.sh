@@ -6,4 +6,4 @@ python $NAVSIM_DEVKIT_ROOT/navsim/planning/script/run_pdm_score.py \
         agent=diffusiondrive_style_agent \
         worker=ray_distributed \
         agent.checkpoint_path=$CKPT \
-        experiment_name=eval_diff_style_agent_ablation
+        experiment_name=eval_diff_style_agent
