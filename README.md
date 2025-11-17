@@ -1,9 +1,9 @@
 <div align="center">
 <h1>StyleDrive: Towards Driving-Style Aware Benchmarking of End-To-End Autonomous Driving</h1>
 
-[Ruiyang Hao](https://ry-hao.top/)<sup>1</sup>, [Bowen Jing](https://arthur12137.com/)<sup>2</sup>, [Haibao Yu](https://scholar.google.com/citations?user=JW4F5HoAAAAJ)<sup>1,3</sup>, [Zaiqing Nie](https://scholar.google.com/citations?user=Qg7T6vUAAAAJ)<sup>1,\*</sup>
+[Ruiyang Hao](https://ry-hao.top/)<sup>1,2</sup>, [Bowen Jing](https://arthur12137.com/)<sup>3</sup>, [Haibao Yu](https://scholar.google.com/citations?user=JW4F5HoAAAAJ)<sup>1,4</sup>, [Zaiqing Nie](https://scholar.google.com/citations?user=Qg7T6vUAAAAJ)<sup>1,\*</sup>
 
-<sup>1</sup> AIR, Tsinghua University, <sup>2</sup> The University of Manchester, <br> <sup>3</sup> The University of Hong Kong
+<sup>1</sup> AIR, Tsinghua University, <sup>2</sup> King's College London, <br> <sup>3</sup> The University of Manchester, <sup>4</sup> The University of Hong Kong
 
 [![StyleDrive](https://img.shields.io/badge/Arxiv-Paper-red)](https://arxiv.org/abs/2506.23982)&nbsp;
 [![Dataset](https://img.shields.io/badge/Dataset-Download-yellow)](https://huggingface.co/datasets/Ryhn98/StyleDrive-Dataset)&nbsp;
@@ -14,6 +14,7 @@
 
 ## News
 
+- **` Nov. 7th, 2025`:** StyleDrive is accepted to AAAI 2026 and will be presented in an oral session.
 - **` Aug. 5th, 2025`:** We update the [Arxiv paper](https://arxiv.org/abs/2506.23982) with more experimental results, and supply more demos in the [Project Homepage](https://styledrive.github.io/).
 - **` Jul. 1st, 2025`:** We release the initial version of code and weight (except for WoTE-Style model), along with documentation and training/evaluation scripts.
 - **` Jun. 30th, 2025`:** We released our paper on [Arxiv](https://arxiv.org/abs/2506.23982). Code/Models are coming soon. Please stay tuned! ☕️
