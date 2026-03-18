@@ -5,6 +5,8 @@
 
 <sup>1</sup> AIR, Tsinghua University, <sup>2</sup> King's College London, <br> <sup>3</sup> The University of Manchester, <sup>4</sup> The University of Hong Kong
 
+<strong>AAAI 2026 Oral</strong>
+
 [![StyleDrive](https://img.shields.io/badge/Arxiv-Paper-red)](https://arxiv.org/abs/2506.23982)&nbsp;
 [![Dataset](https://img.shields.io/badge/Dataset-Download-yellow)](https://huggingface.co/datasets/Ryhn98/StyleDrive-Dataset)&nbsp;
 [![Weights](https://img.shields.io/badge/Weights-Download-blue)](https://huggingface.co/datasets/Ryhn98/StyleDrive-Dataset)&nbsp;
