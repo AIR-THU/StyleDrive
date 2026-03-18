@@ -97,10 +97,13 @@ This work is partly built upon [NAVSIM](https://github.com/autonomousvision/navs
 If you find StyleDrive is useful in your research or applications, please consider giving us a star 🌟 and citing it by the following BibTeX entry.
 
 ```bibtex
- @article{hao2025styledrive,
+@inproceedings{hao2026styledrive,
   title={StyleDrive: Towards Driving-Style Aware Benchmarking of End-To-End Autonomous Driving},
   author={Hao, Ruiyang and Jing, Bowen and Yu, Haibao and Nie, Zaiqing},
-  journal={arXiv preprint arXiv:2506.23982},
-  year={2025}
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={40},
+  number={6},
+  pages={4627-4635},
+  year={2026}
 }
 ```
