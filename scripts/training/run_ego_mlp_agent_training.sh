@@ -1,6 +1,6 @@
 TRAIN_TEST_SPLIT=styletrain
 
-CUDA_VISIBLE_DEVICES=4,5 python $NAVSIM_DEVKIT_ROOT/navsim/planning/script/run_training.py \
+CUDA_VISIBLE_DEVICES=0 python $NAVSIM_DEVKIT_ROOT/navsim/planning/script/run_training.py \
         experiment_name=training_ego_mlp_agent \
         trainer.params.max_epochs=50 \
         train_test_split=$TRAIN_TEST_SPLIT \
