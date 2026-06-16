@@ -1,0 +1,23 @@
+# Keep ALL data out of the image — it is mounted at /data at run time.
+download/
+dataset/
+exp/
+*.tgz
+*.tar
+*.tar.gz
+*.zip
+*.pkl
+*.ckpt
+*.pth
+*.bin
+
+# VCS / caches / build cruft
+.git/
+.gitignore
+**/__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+env/
