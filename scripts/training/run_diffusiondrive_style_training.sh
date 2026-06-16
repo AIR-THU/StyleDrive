@@ -1,6 +1,7 @@
 TRAIN_TEST_SPLIT=styletrain
 
 CUDA_VISIBLE_DEVICES=0 python $NAVSIM_DEVKIT_ROOT/navsim/planning/script/run_training.py \
+        trainer.params.strategy=auto \
         agent=diffusiondrive_style_agent \
         experiment_name=training_diffusiondrive_style_agent  \
         train_test_split=$TRAIN_TEST_SPLIT  \
